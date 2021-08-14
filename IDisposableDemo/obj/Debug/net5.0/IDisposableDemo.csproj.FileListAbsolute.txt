@@ -1,0 +1,16 @@
+C:\Users\PC\source\repos\TaskDemo\IDisposableDemo\bin\Debug\net5.0\IDisposableDemo.exe
+C:\Users\PC\source\repos\TaskDemo\IDisposableDemo\bin\Debug\net5.0\IDisposableDemo.deps.json
+C:\Users\PC\source\repos\TaskDemo\IDisposableDemo\bin\Debug\net5.0\IDisposableDemo.runtimeconfig.json
+C:\Users\PC\source\repos\TaskDemo\IDisposableDemo\bin\Debug\net5.0\IDisposableDemo.runtimeconfig.dev.json
+C:\Users\PC\source\repos\TaskDemo\IDisposableDemo\bin\Debug\net5.0\IDisposableDemo.dll
+C:\Users\PC\source\repos\TaskDemo\IDisposableDemo\bin\Debug\net5.0\ref\IDisposableDemo.dll
+C:\Users\PC\source\repos\TaskDemo\IDisposableDemo\bin\Debug\net5.0\IDisposableDemo.pdb
+C:\Users\PC\source\repos\TaskDemo\IDisposableDemo\obj\Debug\net5.0\IDisposableDemo.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\TaskDemo\IDisposableDemo\obj\Debug\net5.0\IDisposableDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\TaskDemo\IDisposableDemo\obj\Debug\net5.0\IDisposableDemo.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\TaskDemo\IDisposableDemo\obj\Debug\net5.0\IDisposableDemo.AssemblyInfo.cs
+C:\Users\PC\source\repos\TaskDemo\IDisposableDemo\obj\Debug\net5.0\IDisposableDemo.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\TaskDemo\IDisposableDemo\obj\Debug\net5.0\IDisposableDemo.dll
+C:\Users\PC\source\repos\TaskDemo\IDisposableDemo\obj\Debug\net5.0\ref\IDisposableDemo.dll
+C:\Users\PC\source\repos\TaskDemo\IDisposableDemo\obj\Debug\net5.0\IDisposableDemo.pdb
+C:\Users\PC\source\repos\TaskDemo\IDisposableDemo\obj\Debug\net5.0\IDisposableDemo.genruntimeconfig.cache
