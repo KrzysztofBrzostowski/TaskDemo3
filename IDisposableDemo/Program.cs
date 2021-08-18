@@ -4,8 +4,18 @@ using System.IO;
 
 namespace IDisposableDemo
 {
-    public class Printer : IDisposable
+    public class LaserPrinter : IDisposable
     {
+        public LaserPrinter()
+        {
+
+        }
+
+        ~LaserPrinter()
+        {
+            Console.WriteLine("Destruktor");
+        }
+
         public void Print(string content)
         {
             if (content.Length > 10)
@@ -23,7 +33,28 @@ namespace IDisposableDemo
 
         public void Dispose()
         {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        private bool _disposed = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (_disposed) return;
+
+            //tu zwalniamy zarzadzalne
+            if (disposing)
+            {
+
+            }
+
+            //tu zwalniamy niezarzadzalne
+            //np. zamykamy połączenie do bazy danych; obiekt DbConnection metoda Close
+            //odładowujemy bibliotekę z pamięci
             File.Delete("printer.txt");
+
+            _disposed = true;
         }
     }
 
@@ -41,7 +72,7 @@ namespace IDisposableDemo
 
             try
             {
-                using (Printer printer = new Printer())
+                using (LaserPrinter printer = new LaserPrinter())
                 {
                     printer.Print("Hello");
                     printer.Print("World");
@@ -60,7 +91,7 @@ namespace IDisposableDemo
 
         private static void TryCatchTest()
         {
-            Printer printer = new Printer();
+            LaserPrinter printer = new LaserPrinter();
             try
             {
                 printer.Print("Hello");
